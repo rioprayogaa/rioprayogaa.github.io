@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+    .navTop {
+      display: none;
+    }
+
+    .imgLogo {
+      position: absolute;
+      margin-left: -45px;
+    }
+
+    .categoryRes {
+      float: right;
+    }
+    
+    .card {
+      height: 40px;
+    }
+
+    .form-control {
+      height: 20px;
+    }
+
+    .input-group-appendBtn {
+      display: none;
+    }
+
+    .input-group-text {
+      margin-left: -8px;
+      margin-top: -5px;
+      background-color: white;
+    }
+
+    .navDown {
+      height: 105px;
+    }
+
+    .category a {
+      font-size: 14px;
+    }
+    
+    .navDownRightItem {
+      display: none;
+    }
+  }

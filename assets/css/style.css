@@ -1,0 +1,86 @@
+
+/* start navbar1 */
+.navbar {
+  height: 33px;
+  background-color: rgb(108, 197, 70);
+}
+
+.navDown {
+  height: 90px;
+}
+
+.navbar {
+  box-shadow: none;
+}
+nav a {
+  font-size: 13px
+}
+.itemLeft{
+  padding-left: 50px;
+}
+
+.itemRight {
+  padding-right: 50px;
+}
+
+/* end navbar1 */
+
+/* Start navbar2 */
+.navDownleftItem {
+  text-align: left;
+  padding-left: 60px;
+}
+
+.navDownRightItem {
+  text-align: right;
+  padding-right: 60px;
+}
+
+.imgLogo {
+  padding-right: 50px;
+}
+
+.navDownCenterItem {
+  text-align: center;
+}
+
+.input-group-text {
+  background-color: #8EE269;
+  border: none;
+}
+.input-group {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 11px;
+  text-align: center;
+}
+
+.form-control {
+  border: none;;
+}
+
+.card {
+  height: 60px;
+}
+
+.category a {
+  font-size: 16px;
+}
+
+.imgCart {
+  padding-right: 18px;
+}
+
+.btn {
+  height: 40px;
+}
+
+.btnNavDown {
+  font-size: 13px;
+  background-color: white;
+  border-radius: 9px;
+  height: 30px;
+  border: none;
+  width: 90px;
+}
+/* end navbar2 */
