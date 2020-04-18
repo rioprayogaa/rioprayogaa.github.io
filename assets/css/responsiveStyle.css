@@ -1,3 +1,50 @@
+@media only screen and (max-width: 600px) {
+  .navTop {
+    display: none;
+  }
+
+  .imgLogo {
+    position: absolute;
+    margin-left: -45px;
+  }
+
+  .categoryRes {
+    float: right;
+  }
+  
+  .card {
+    height: 40px;
+  }
+
+  .form-control {
+    height: 20px;
+  }
+
+  .input-group-appendBtn {
+    display: none;
+  }
+
+  .input-group-text {
+    margin-left: -8px;
+    margin-top: -5px;
+    background-color: white;
+  }
+
+  .navDown {
+    height: 105px;
+  }
+
+  .category a {
+    font-size: 14px;
+  }
+  
+  .navDownRightItem {
+    display: none;
+  }
+}
+
+
+
 @media only screen and (max-width: 768px) {
     .navTop {
       display: none;
@@ -41,4 +88,48 @@
     .navDownRightItem {
       display: none;
     }
+  }
+
+
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .btnNavDown {
+      width: 60px;
+      padding-right: 0px;
+    }
+    
+    .itemLeft {
+      padding-left: 0px;
+    }
+
+    .itemRight {
+      padding-right: 0px;
+    }
+
+    .navDownleftItem {
+      text-align: left;
+      padding-left: 0px;
+
+    }
+
+    .imgLogo 
+     {
+       padding-right: 16px;
+      padding-left: 16px;
+     }
+
+     .navDownRightItem {
+      text-align: right;
+      padding-right: 0px;
+  }
+
+  .imgCart {
+    padding-left: 23px;
+    padding-right: 18px;
+}
+
+
+    
   }
