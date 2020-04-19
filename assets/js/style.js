@@ -1,9 +1,12 @@
 function myFunction(x) {
     if (x.matches) { // If media query matches
-      document.getElementById('category-login').innerHTML = "Login";
+      var iconCL = $('#iconCL').removeClass("fa-th-large");
+      iconCL.addClass("fa-sign-in-alt");
+      document.getElementById('txtCategory-login').innerHTML = "Login";
     } else {
-    
-        document.getElementById('category-login').innerHTML = "Categori";
+        var iconCL = $('#iconCL').removeClass("fa-sign-in-alt");
+        iconCL.addClass("fa-th-large");
+        document.getElementById('txtCategory-login').innerHTML = "Category";
     }
   }
   
