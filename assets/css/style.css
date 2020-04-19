@@ -1,12 +1,26 @@
 
+* {
+  box-sizing: border-box;
+}
 /* start navbar1 */
 .navbar {
   height: 33px;
   background-color: rgb(108, 197, 70);
 }
 
+nav {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#contentCarousel {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .navDown {
-  height: 90px;
+  width: 100%;
+  height: 90px; 
 }
 
 .navbar {
@@ -51,7 +65,7 @@ nav a {
 .input-group {
   padding-right: 10px;
   padding-left: 10px;
-  margin-top: 11px;
+  margin-top: 13px;
   text-align: center;
 }
 
@@ -84,3 +98,23 @@ nav a {
   width: 90px;
 }
 /* end navbar2 */
+
+/* Articel carousel */
+.carousel {
+  margin-top: 30px;
+  
+}
+
+.wallCarousel {
+  border-radius: 0px;
+  box-shadow: none;
+  height: 200px;
+  background-color: #8EE269;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  height: 330px;
+}
+/* End Articel carousel */
+
