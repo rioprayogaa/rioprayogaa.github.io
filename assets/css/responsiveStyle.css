@@ -54,6 +54,7 @@
     margin: 0px;
     width: 100%;
     float: none;
+   
   }
 
   #carouselExampleIndicators {
@@ -62,6 +63,13 @@
 
   .bannerCarousel {
     height: 120px;
+  }
+
+  .cardWall {
+    height: 70px;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: #8EE269;
   }
 
 
