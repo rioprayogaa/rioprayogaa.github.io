@@ -140,3 +140,41 @@ nav a {
 
 /* End Articel carousel */
 
+/* Wall Category */
+.grid-container {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 6px;
+  background-color: white;
+  padding: 7px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.grid-container a {
+  color: black;
+} 
+
+.wallCategory {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.label {
+  margin-top: 318px;
+  margin-bottom: 10px;
+}
+
+.label a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Wall Category */

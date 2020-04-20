@@ -72,14 +72,51 @@
     background-color: #8EE269;
   }
 
+  .grid-container {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 6px;
+    background-color: white;
+    padding: 7px;
+  }
   
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 13px;
+  }
+  
+  .grid-container a {
+    color: black;
+  } 
+  
+  .wallCategory {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .label {
+    margin-top: 160px;
+    margin-bottom: 10px;
+  }
+  
+  .label a {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-
-
-
- 
-
- 
+  
+  /* Wall Category */
+  
+  .wallCategory .grid-container .card {
+    height: auto;
+  }
+  
+  /* .item img {
+    width: 10px;
+  } */
 }
 
 
@@ -98,7 +135,7 @@
     }
     
     .card {
-      height: 40px;
+      height: auto;
     }
 
     .form-control {
