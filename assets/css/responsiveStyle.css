@@ -220,7 +220,7 @@
       margin: 0px;
       width: 100%;
       float: none;
-     
+ 
     }
   
     
@@ -230,14 +230,16 @@
   
     .bannerCarousel {
       height: 240px;
+
     }
   
     .cardWall {
       height: 132px;
-      border-radius: 0px;
       box-shadow: none;
       background-color: #8EE269;
     }
+
+   
   
 }
   
