@@ -1,5 +1,5 @@
 function myFunction(x) {
-    if (x.matches) { // If media query matches
+    if (x.matches) {
      $(".categoryRes").removeAttr('data-toggle','dropdown');
       var iconCL = $('#iconCL').removeClass("fa-th-large");
       iconCL.addClass("fa-sign-in-alt");
@@ -13,6 +13,7 @@ function myFunction(x) {
   }
   
   var x = window.matchMedia("(max-width: 768px)")
-  myFunction(x) // Call listener function at run time
+  myFunction(x)
   x.addListener(myFunction)
+  
   

@@ -8,16 +8,6 @@
   background-color: rgb(108, 197, 70);
 }
 
-nav {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
-#contentCarousel {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
 .navDown {
   width: 100%;
   height: 90px; 
@@ -100,21 +90,49 @@ nav a {
 /* end navbar2 */
 
 /* Articel carousel */
-.carousel {
-  margin-top: 30px;
-  
+.container {
+  margin: 0 auto;
+  height: 900px;
+}
+
+.box {
+  margin-top: 20px;
+  margin-left: 70px;
+  float: left;
+  width: 59%;
+}
+
+.box2 {
+  margin-right: 70px;
+  float:right;
+  width: 30%;
+  height: 241px;
+}
+
+.bannerChildTop {
+  border-radius: 0px;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.bannerChildDown{
+  width: 100%;
+  height: 120px;
+  border-radius: 0px;
+}
+
+.bannerCarousel {
+  width:100%;
+  height: 248px;
 }
 
 .wallCarousel {
-  border-radius: 0px;
-  box-shadow: none;
-  height: 200px;
-  background-color: #8EE269;
+  width:100%;
+  height: 248px;
 }
 
-.carousel-inner {
-  border-radius: 10px;
-  height: 330px;
-}
+
+
 /* End Articel carousel */
 
