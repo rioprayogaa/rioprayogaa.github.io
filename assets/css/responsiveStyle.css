@@ -72,6 +72,7 @@
     background-color: #8EE269;
   }
 
+  
 
 
 
@@ -82,7 +83,7 @@
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .navTop {
       display: none;
     }
@@ -125,7 +126,121 @@
     .navDownRightItem {
       display: none;
     }
+
+    .box2 {
+      display: none;
+    }
+  
+    .box {
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      position: absolute;
+      margin: 0px;
+      width: 100%;
+      float: none;
+     
+    }
+  
+    
+    #carouselExampleIndicators {
+      height: 120px;
+    }
+  
+    .bannerCarousel {
+      height: 120px;
+    }
+  
+    .cardWall {
+      height: 70px;
+      border-radius: 0px;
+      box-shadow: none;
+      background-color: #8EE269;
+    }
+  
+   
   }
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .navTop {
+      display: none;
+    }
+
+    .imgLogo {
+      position: absolute;
+      margin-left: -45px;
+    }
+
+    .categoryRes {
+      float: right;
+    }
+    
+    .card {
+      height: 40px;
+    }
+
+    .form-control {
+      height: 20px;
+    }
+
+    .input-group-appendBtn {
+      display: none;
+    }
+
+    .input-group-text {
+      margin-left: -8px;
+      margin-top: -5px;
+      background-color: white;
+    }
+
+    .navDown {
+      height: 105px;
+    }
+
+    .category a {
+      font-size: 14px;
+    }
+    
+    .navDownRightItem {
+      display: none;
+    }
+
+    .box2 {
+      display: none;
+    }
+  
+    .box {
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      position: absolute;
+      margin: 0px;
+      width: 100%;
+      float: none;
+     
+    }
+  
+    
+    #carouselExampleIndicators {
+      height: 240px;
+    }
+  
+    .bannerCarousel {
+      height: 240px;
+    }
+  
+    .cardWall {
+      height: 132px;
+      border-radius: 0px;
+      box-shadow: none;
+      background-color: #8EE269;
+    }
+  
+}
+  
 
 
   @media only screen 
@@ -205,5 +320,7 @@
     padding-left: 23px;
     padding-right: 18px;
 }
+
+
     
   }
