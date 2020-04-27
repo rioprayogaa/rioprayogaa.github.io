@@ -143,7 +143,7 @@ nav a {
 
 /* End Articel carousel */
 
-/* Wall Category */
+/* Main Item */
 .grid-container {
   height: auto;
   width: 100%;
@@ -165,7 +165,7 @@ nav a {
   color: black;
 } 
 
-.wallCategory {
+.mainItem {
   margin-right: 70px;
   margin-left: 70px;
 }
@@ -175,11 +175,38 @@ nav a {
   margin-bottom: 10px;
 }
 
-.label a {
+.labelStyle {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Roboto';
 }
 
+.labelTodayItems {
+  margin-top: 55px;
+}
 
-/* Wall Category */
+/* Main Item */
+
+/* Line Label */
+.heading-line {
+  position: relative; }
+  .heading-line .labelStyle {
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    background-color: white;
+    z-index: 2; }
+
+.heading-line::before {
+  top: 35%;
+  border-radius: 7px;
+  border-top-style: solid;
+  content: "";
+  position: absolute;
+  left: auto;
+  right: 0;
+  width: 100%;
+  height: 0;
+  border: 3px solid #8EE269;
+  overflow: hidden; }
+/* End Line Label */
