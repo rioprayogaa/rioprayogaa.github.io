@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Manrope|Oxygen|Roboto&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -17,7 +17,8 @@
   box-shadow: none;
 }
 nav a {
-  font-size: 13px
+  font-size: 13px;
+  font-family: 'Roboto';
 }
 .itemLeft{
   padding-left: 50px;
@@ -69,6 +70,7 @@ nav a {
 
 .category a {
   font-size: 16px;
+  font-family: 'Roboto';
 }
 
 .imgCart {
@@ -81,6 +83,7 @@ nav a {
 
 .btnNavDown {
   font-size: 13px;
+  font-family: 'Roboto';
   background-color: white;
   border-radius: 9px;
   height: 30px;
@@ -155,6 +158,7 @@ nav a {
   text-align: center;
   padding: 20px 0;
   font-size: 16px;
+  font-family: 'Roboto';
 }
 
 .grid-container a {
@@ -174,6 +178,7 @@ nav a {
 .label a {
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Roboto';
 }
 
 
