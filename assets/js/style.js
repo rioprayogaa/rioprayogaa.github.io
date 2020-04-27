@@ -12,7 +12,7 @@ function myFunction(x) {
     }
   }
   
-  var x = window.matchMedia("(max-width: 992px)")
+  var x = window.matchMedia("(max-width: 1023px)")
   myFunction(x)
   x.addListener(myFunction)
   
