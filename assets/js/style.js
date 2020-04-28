@@ -10,10 +10,12 @@ function myFunction(x) {
         iconCL.addClass("fa-th-large");
         document.getElementById('txtCategory-login').innerHTML = "Category";
     }
+
+    $(".owl-item").width(220);
   }
   
   var x = window.matchMedia("(max-width: 1023px)")
   myFunction(x)
   x.addListener(myFunction)
   
-  
+// mengatur width dari tiap car produk
