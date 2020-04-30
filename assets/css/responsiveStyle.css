@@ -111,7 +111,15 @@
     height: auto;
   }
 
- 
+ .contentProduct {
+   margin-left: 44px;
+   margin-right: 44px;
+ }
+
+ .contentProduct2 {
+  margin-left: 44px;
+  margin-right: 44px;
+}
 }
 
 
