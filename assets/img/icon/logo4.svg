@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="155.459" viewBox="0 0 160 155.459">
+  <defs>
+    <filter id="Subtraction_1" x="0" y="0" width="117.878" height="126.918" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="logo4" transform="translate(-90 -464.541)">
+    <text id="Discarder" transform="translate(129 611)" fill="#fff" font-size="25" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Discarder</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 90, 464.54)" filter="url(#Subtraction_1)">
+      <path id="Subtraction_1-2" data-name="Subtraction 1" d="M338.03,111.459h0a19.864,19.864,0,0,1-7.537-1.488,20.255,20.255,0,0,1-6.395-4.149A19.746,19.746,0,0,1,318,91.429V22.57a19.744,19.744,0,0,1,6.1-14.392,20.26,20.26,0,0,1,6.4-4.149,19.755,19.755,0,0,1,17.478,1.2l59.877,34.429a20,20,0,0,1,0,34.676l-4.921,2.83-3.6-3.552A13.056,13.056,0,0,0,393.26,49H343.945a13.059,13.059,0,0,0-4.3,25.384l-7.35,7.258a9.194,9.194,0,0,0,0,13.11,9.39,9.39,0,0,0,13.171,0l19.9-19.649h9.019L386.21,86.779,347.97,108.768A19.725,19.725,0,0,1,338.03,111.459Z" transform="translate(-309 3.46)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

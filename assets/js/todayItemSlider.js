@@ -1,14 +1,34 @@
-$('.owl-carousel').owlCarousel({
-    margin:10,
-    responsive:{
-        0:{
-            items:1
+   /* testimonials active */
+   $('.product-fruit-slider').owlCarousel({
+    nav: false,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    margin: 30,
+    item: 5,
+    responsive: {
+        0: {
+            items: 1
         },
-        600:{
-            items:3
+        768: {
+            items: 2
         },
-        1000:{
-            items:5
+        1000: {
+            items: 3
+        },
+        1200: {
+            items: 4
+        },
+        1400: {
+            items: 5
         }
     }
 })
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Manrope|Oxygen|Roboto&display=swap');
+body{
+  background-color: rgb(255, 255, 255);
+}
 * {
   box-sizing: border-box;
 }
@@ -150,8 +153,8 @@ nav a {
   display: grid;
   grid-template-columns: 144px 144px 144px 144px 144px 144px 144px 144px ;
   grid-gap: 6px;
-  background-color: white;
-  padding: 7px;
+
+  /* margin-top: 350px; */
   
 }
 
@@ -241,4 +244,152 @@ nav a {
   color: black;
   margin-top: 7px;
   
+}
+
+
+.product-fruit-wrapper,
+.product-fruit-img {
+    position: relative;
+    transition: all .3s ease 0s;
+}
+.product-fruit-img > img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.product-furit-action {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    opacity: 0;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+}
+.product-furit-action a {
+    background-color: #85bd02;
+    border-radius: 0 50px 50px 0;
+    color: #fff;
+    font-size: 24px;
+    height: 50px;
+    line-height: 56px;
+    text-align: center;
+    width: 70px;
+}
+.product-furit-action a:hover {
+    background-color: #333;
+}
+.product-furit-action a.furit-animate-left {
+    border-radius: 0 50px 50px 0;
+}
+.product-furit-action a.furit-animate-right {
+    border-radius: 50px 0px 0px 50px;
+}
+.product-fruit-content > h4 {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin-bottom: 6px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Roboto";
+}
+.product-fruit-content > h4 a {
+    color: #444444;
+    font-family: "Roboto";
+    
+}
+.product-fruit-content > h4 a:hover {
+    color: #85bd02;
+}
+.product-fruit-content > span {
+    color: #85bd02;
+    font-size: 18px;
+}
+.product-fruit-content {
+    padding: 30px 10px 34px;
+    background-color: transparent;
+    transition: all .3s ease 0s;
+}
+.product-fruit-wrapper:hover .product-fruit-img {
+    border-radius: 10px 10px 0px 0px;
+}
+.product-fruit-wrapper:hover .product-fruit-content {
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+.product-furit-action a.furit-animate-left {
+    transform: translateX(-20px);
+    transition: all 0.4s ease 0s;
+}
+.product-furit-action a.furit-animate-right {
+    transform: translateX(20px);
+    transition: all 0.4s ease 0s;
+}
+.product-fruit-wrapper:hover .product-furit-action a.furit-animate-left {
+    transform: translateX(0px);
+}
+.product-fruit-wrapper:hover .product-furit-action a.furit-animate-right {
+    transform: translateX(0px);
+}
+.product-fruit-wrapper:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 10px 10px 10px;
+}
+.product-fruit-wrapper:hover .product-furit-action {
+    opacity: 1
+}
+.section-title-furits > h2 {
+    color: #434343;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin: 25px 0 0;
+    position: relative;
+    font-family: "Roboto";
+}
+.section-title-furits > h2::before {
+    background-color: #85bd02;
+    bottom: -13px;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+.section-title-furits {
+  margin-top: -15px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.product-fruit-slider.owl-carousel .owl-stage-outer {
+
+
+   padding-bottom: 25px;
+}
+
+.product-fruit-slider {
+  height: auto;
+}
+.product-style-area .container-fluid {
+    padding: 0 1px;
+}
+.popularCategory {
+  margin-top: 270px;
+
+}
+
+.location {
+  font-weight: lighter;
+  font-family: "Roboto";
+  color: rgb(170, 170, 170);
+}
+
+.title {
+  margin-top: -65px;
 }

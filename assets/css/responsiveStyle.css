@@ -80,6 +80,7 @@
     grid-gap: 6px;
     background-color: white;
     padding: 7px;
+    margin-top: -30px;
   }
   
   .grid-container > div {
@@ -120,6 +121,16 @@
   margin-left: 44px;
   margin-right: 44px;
 }
+
+
+
+.popularCategory {
+  margin-top: 160px;
+}
+
+
+
+
 }
 
 
@@ -228,7 +239,21 @@
 .form-control {
   height: 40px;
 }
- 
+.popularCategory {
+  margin-top: 160px;
+}
+
+
+.grid-container {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 6px;
+  background-color: white;
+  padding: 7px;
+  margin-top: -30px;
+}
 }
 
 @media (width: 1024px)  {
@@ -275,6 +300,15 @@
 .mainItem {
   margin-right: 40px;
   margin-left: 40px;
+}
+
+.grid-container {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px;
+  grid-gap: 0px;
+  /* margin-top: 350px; */
 }
 
 }
