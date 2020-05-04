@@ -1,34 +1,21 @@
-   /* testimonials active */
-   $('.product-fruit-slider').owlCarousel({
-    nav: false,
-    autoplay: false,
-    autoplayTimeout: 5000,
-    margin: 30,
-    item: 5,
-    responsive: {
-        0: {
-            items: 1
-        },
-        768: {
-            items: 2
-        },
-        1000: {
-            items: 3
-        },
-        1200: {
-            items: 4
-        },
-        1400: {
-            items: 5
-        }
+new Glider(document.querySelector('.glider'), {
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    draggable: true,
+  
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
     }
-})
+  });
 
-
-
-
-
-
-
-
-
+  new Glider(document.querySelector('.glider2'), {
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    draggable: true,
+  
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
