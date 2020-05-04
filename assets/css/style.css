@@ -249,7 +249,13 @@ nav a {
   padding: 12px;
 }
 
+.productNoPadding {
+  padding-left: 0px;
+}
+
 .space-content-product img {
+  /* border-top-left-radius: 9px;
+  border-top-right-radius: 9px; */
   border-radius: 9px;
 
 }
