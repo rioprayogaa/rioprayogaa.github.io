@@ -148,6 +148,7 @@ nav a {
 
 /* Main Item */
 .grid-container {
+  margin-bottom: 30px;
   margin-top: 20px;
   height: auto;
   width: 100%;
@@ -230,7 +231,7 @@ nav a {
 }
 
 .popularCategory {
-  margin-top: 290px;
+  margin-top: 320px;
 
 }
 

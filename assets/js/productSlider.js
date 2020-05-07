@@ -14,19 +14,19 @@ new Glider(document.querySelector('.glider'), {
     draggable: true,
   
     arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
+      prev: '.prevNearby',
+      next: '.nextNearby'
     }
   });
-
+ 
   new Glider(document.querySelector('.glider3'), {
     slidesToShow: 5,
     slidesToScroll: 5,
     draggable: true,
   
     arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
+      prev: '.prevBig',
+      next: '.nextBig'
     }
   });
 
@@ -36,7 +36,7 @@ new Glider(document.querySelector('.glider'), {
     draggable: true,
   
     arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
+      prev: '.prevSmall',
+      next: '.nextSmall'
     }
   });
